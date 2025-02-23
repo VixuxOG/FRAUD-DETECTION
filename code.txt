@@ -1,0 +1,28 @@
+upi_fraud_detection/
+├── backend/
+│   ├── app.py
+│   ├── model/
+│   │   ├── cnn_model.py
+│   │   ├── utils.py
+│   │   ├── __init__.py
+│   ├── fraud_pattern.py
+│   ├── requirements.txt
+│   ├── train_model.py
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── UploadSection.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── FraudTransactionTable.jsx  // React Table
+│   │   │   ├── LoadingSpinner.jsx        // Loading
+│   │   │   ├── ErrorMessage.jsx        // Proper Errors
+│   │   ├── App.jsx
+│   │   ├── index.js
+│   │   ├── App.css
+│   ├── public/
+│   │   ├── index.html
+│   ├── package.json
+│   ├── webpack.config.js
+├── data/ # Training datasets here
+│   ├── training_dataset.csv # Sample to be used
+├── README.md
