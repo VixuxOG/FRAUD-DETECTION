@@ -24,5 +24,5 @@ upi_fraud_detection/
 │   ├── package.json
 │   ├── webpack.config.js
 ├── data/ # Training datasets here
-│   ├── training_dataset.csv # Sample to be used
+│   ├── training_dataset.csv
 ├── README.md
